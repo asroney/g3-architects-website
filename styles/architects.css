@@ -1,0 +1,114 @@
+/* work sans font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* shared styles */
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0px;
+}
+
+ /* header section */
+ header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px 20px 240px;
+
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ nav>h3{
+    font-size: 2.5rem;
+    align-items: center;
+    font-weight: 700px;
+    color: #131313;
+ }
+ nav>ul{
+    display: flex;
+ }
+ nav li{
+    margin-left: 30px;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+    color: #424242;
+ }
+/* nav bar end */
+/* banner container start */
+.banner-content{
+    max-width:800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banner-image img{
+    width: 100%;
+    margin-top: 20px;
+}
+.banner-title{
+    color:#131313;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;   
+    padding-top: 50px;
+}
+.banner-description{
+    color: #131313;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-primary{
+    color:#ffffff;
+    font-size: 1.25rem;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+/* responsive for mobile device */
+@media screen and (max-width: 576px){
+    header{
+        padding: 10px 20px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    nav>ul{
+        padding: 0px;
+    }
+}
+
+
+/* responsive for tab */
+@media screen and (min-width: 576px) and (max-width:962px) {
+    header{
+        padding: 10px 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        padding: 0px;
+    }
+        
+}

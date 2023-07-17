@@ -147,6 +147,25 @@ font-family: 'Work Sans', sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.card-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: solid 2px coral;
+    text-align: center;
+    padding: 20px;
+    padding-top: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 /* responsive */
 /* responsive for mobile device */
@@ -156,7 +175,8 @@ font-family: 'Work Sans', sans-serif;
     }
     nav,
     .team-container,
-    .feature-container {
+    .feature-container,
+    .box-container{
         flex-direction: column;
         margin: 0px;
         
@@ -180,7 +200,12 @@ font-family: 'Work Sans', sans-serif;
     .feature-image{
         width: 90%;
     }
-    
+
+    .box{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 
 
@@ -211,5 +236,9 @@ font-family: 'Work Sans', sans-serif;
     }
     .feature-image{
         width: 95%;
+    }
+    .card-container{
+        margin: 10px;
+        text-align: center;
     }
 }
